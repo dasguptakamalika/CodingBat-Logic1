@@ -1,4 +1,4 @@
-package org.Logic1;
-
-public class Ex5 {
+public boolean nearTen(int num) {
+    int remainder = num % 10;
+    return (remainder <= 2 || remainder >= 8);
 }
