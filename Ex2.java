@@ -15,3 +15,5 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
         return 2; // big ticket
     }
 }
+
+//A little tough
