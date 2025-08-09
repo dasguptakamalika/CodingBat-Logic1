@@ -28,4 +28,19 @@ isBirthday = true → speed -= 5 → 65 → 60
 
 speed = 60 → ≤ 60 → return 0
 
+public int caughtSpeeding(int speed, boolean isBirthday) {
+    if (isBirthday) {
+        speed = speed - 5; // ✅ update, don't redeclare
+    }
+
+    if (speed <= 60) {
+        return 0;
+    } 
+    else if (speed <= 80 && speed >= 61) { // ✅ fixed typo, valid range
+        return 1;
+    } 
+    else {
+        return 2;
+    }
+}
  */
