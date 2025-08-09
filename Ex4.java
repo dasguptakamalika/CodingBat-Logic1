@@ -1,4 +1,3 @@
-package org.Logic1;
-
-public class Ex4 {
+public boolean more20(int n) {
+    return (n % 20 == 1 || n % 20 == 2);
 }
