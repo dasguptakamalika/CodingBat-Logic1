@@ -1,13 +1,9 @@
-public int blueTicket(int a, int b, int c) {
-    int ab = a + b;
-    int bc = b + c;
-    int ac = a + c;
-
-    if (ab == 10 || bc == 10 || ac == 10) {
-        return 10;
-    } else if (ab - bc == 10 || ab - ac == 10) {
-        return 5;
-    } else {
+public int maxMod5(int a, int b) {
+    if (a == b) {
         return 0;
+    } else if (a % 5 == b % 5) {
+        return Math.min(a, b);
+    } else {
+        return Math.max(a, b);
     }
 }
