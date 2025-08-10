@@ -17,4 +17,8 @@ public boolean more20(int n) {
 
 4️⃣ 29
 
-29 % 20 = 9 → remainder is 9 → ❌ false (it’s +9 from 20)*/
+29 % 20 = 9 → remainder is 9 → ❌ false (it’s +9 from 20)
+ if the number is smaller than the divisor (and can’t be divided even once), then the remainder is just the number itself.
+
+*/
+
