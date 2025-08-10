@@ -9,3 +9,9 @@ public boolean cigarParty(int cigars, boolean isWeekend) {
   }
   
 }
+/*Right—isWeekend is just a boolean switch:
+
+Weekend = true: success if cigars ≥ 40; otherwise false.
+
+Weekend = false: success if 40 ≤ cigars ≤ 60; otherwise false.*/
+
