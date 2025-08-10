@@ -1,5 +1,6 @@
-public boolean nearTen(int num) {
-    int remainder = num % 10;
-    return (remainder <= 2 || remainder >= 8);
-}
-
+public boolean nearTen(int num)
+    {
+    int r = num%10;
+return(r <=2 || r >=8);
+    }
+    
