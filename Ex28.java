@@ -1,6 +1,10 @@
 public int withoutDoubles(int die1, int die2, boolean noDoubles) {
     if (noDoubles && die1 == die2) {
-        die1 = (die1 == 6) ? 1 : die1 + 1; // wrap around from 6 to 1
+        if (die1 == 6) {
+            die1 = 1; // wrap around from 6 to 1
+        } else {
+            die1 = die1 + 1; // otherwise just add 1
+        }
     }
     return die1 + die2;
 }
