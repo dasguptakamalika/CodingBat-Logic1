@@ -14,4 +14,5 @@ public String alarmClock(int day, boolean vacation) {
 }
 
 //check out the return type, false (boolean) ≠ "false" (String).
-//Your method must return a String.
+
+//Your method must return a String, always check the return type
