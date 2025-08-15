@@ -5,3 +5,6 @@ public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
         return a < b && b < c; // strict increasing
     }
 }
+
+
+//see how the specific case was handled first
