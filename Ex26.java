@@ -1,13 +1,15 @@
-public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-    if (isAsleep) {
-        return false; // never answer if asleep
+public String fizzString2(int n) {
+    if (n % 3 == 0 && n % 5 == 0) {
+        return "FizzBuzz!";
+    } else if (n % 3 == 0) {
+        return "Fizz!";
+    } else if (n % 5 == 0) {
+        return "Buzz!";
+    } else {
+        return n + "!";
     }
-    if (isMorning && !isMom) {
-        return false; // in morning, only answer if mom
-    }
-    return true; // all other cases
 }
 
-//understand the flow, all cases if ur asllep u aint picking up, then comes next false, if not morning and mom doesnt call, you wont pick up
-//rest of the times , u pick up, also if first if is false then we go to next condition
-//aaaahh dont get it!!!
+//&& first = handle the most specific case before the more general ones.
+
+//Otherwise, your more general check would “catch” the number first and skip the special case.
