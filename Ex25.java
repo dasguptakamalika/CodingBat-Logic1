@@ -1,9 +1,15 @@
 public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+    
+    // Rule 1: if asleep, never answer
     if (isAsleep) {
-        return false; // never answer if asleep
+        return false;
     }
+    
+    // Rule 2: if it's morning, only answer if it's mom
     if (isMorning && !isMom) {
-        return false; // in morning, only answer if mom
+        return false;
     }
-    return true; // all other cases
+    
+    // Otherwise, answer
+    return true;
 }
