@@ -8,3 +8,6 @@ public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
 
 
 //see how the specific case was handled first
+//also we know how to check if all are equal, a ==b && b==c
+//hence to approve cases like 445 etc , we take this case
+//a <=b && b<=c
