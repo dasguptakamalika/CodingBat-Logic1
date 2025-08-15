@@ -1,15 +1,13 @@
 public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-    
-    // Rule 1: if asleep, never answer
     if (isAsleep) {
-        return false;
+        return false; // never answer if asleep
     }
-    
-    // Rule 2: if it's morning, only answer if it's mom
     if (isMorning && !isMom) {
-        return false;
+        return false; // in morning, only answer if mom
     }
-    
-    // Otherwise, answer
-    return true;
+    return true; // all other cases
 }
+
+//understand the flow, all cases if ur asllep u aint picking up, then comes next false, if not morning and mom doesnt call, you wont pick up
+//rest of the times , u pick up, also if first if is false then we go to next condition
+//aaaahh dont get it!!!
