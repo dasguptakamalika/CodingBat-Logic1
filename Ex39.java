@@ -18,4 +18,6 @@ public int makeChocolate(int small, int big, int goal) {
 int left = goal - useBig * 5;
 if (left <= small) return left;
 return -1;
+The reason it returns -1 instead of false is because the method’s return type is int, not boolean.
 */
+
