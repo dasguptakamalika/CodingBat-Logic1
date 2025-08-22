@@ -1,8 +1,19 @@
-def doubleChar(s):
-    return ''.join([ch * 2 for ch in s])
+public String doubleChar(String str) {
+    StringBuilder result = new StringBuilder();
+    for (int i = 0; i < str.length(); i++) {
+        char c = str.charAt(i);
+        result.append(c).append(c);
+    }
+    return result.toString();
+}
+/*append(x) → adds text to the end
 
+insert(offset, x) → inserts text at a position
 
-# Examples
-print(doubleChar("The"))      # "TThhee"
-print(doubleChar("AAbb"))     # "AAAAbbbb"
-print(doubleChar("Hi-There")) # "HHii--TThheerree"
+delete(start, end) → removes a section
+
+reverse() → reverses the entire string
+
+setCharAt(index, c) → changes a character in place
+
+toString() → converts it back to a normal String*/
