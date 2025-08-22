@@ -1,0 +1,8 @@
+def doubleChar(s):
+    return ''.join([ch * 2 for ch in s])
+
+
+# Examples
+print(doubleChar("The"))      # "TThhee"
+print(doubleChar("AAbb"))     # "AAAAbbbb"
+print(doubleChar("Hi-There")) # "HHii--TThheerree"
