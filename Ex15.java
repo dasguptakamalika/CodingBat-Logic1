@@ -5,7 +5,7 @@ public String fizzString(String str) {
     }
 
     else if(str.startsWith("f"))
-    {
+    { 
         return "Fizz";
     }
     else if(str.endsWith("b"))
@@ -17,3 +17,4 @@ public String fizzString(String str) {
         return str;
     }
 }
+
