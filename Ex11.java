@@ -5,7 +5,7 @@ public int dateFashion(int you, int date) {
         return 2; // one of you is very stylish
     } else {
         return 1; // otherwise maybe
-    }
+    } 
 }
 /*How it works step-by-step
 First check for “no” case
@@ -21,5 +21,6 @@ If either you or date has style ≥ 8 → return 2.
 Otherwise it’s “maybe”
 
 If neither extreme is true, return 1.
+
 
 */
