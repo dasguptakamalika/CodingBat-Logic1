@@ -5,7 +5,8 @@ public int withoutDoubles(int die1, int die2, boolean noDoubles) {
         } else {
             die1 = die1 + 1; // otherwise just add 1
         }
-    }
+    } 
     return die1 + die2; 
 }
+
 
