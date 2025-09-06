@@ -10,3 +10,4 @@ public boolean closeFar(int a, int b, int c) {
 
 //why god why is this so annoying
 //see how we are  sending two boolean in one return boolean?
+
