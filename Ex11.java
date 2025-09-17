@@ -6,7 +6,7 @@ public int dateFashion(int you, int date) {
     } else {
         return 1; // otherwise maybe
     } 
-} 
+}  
 /*How it works step-by-step
 First check for “no” case
 
@@ -24,4 +24,5 @@ If neither extreme is true, return 1.
 
 
 */
+
 
