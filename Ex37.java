@@ -4,8 +4,9 @@ public int luckySum(int a, int b, int c) {
     } else if (b == 13) {
         return a;
     } else if (c == 13) {
-        return a + b;
+        return a + b; 
     } else {
         return a + b + c;
     }
 }
+
