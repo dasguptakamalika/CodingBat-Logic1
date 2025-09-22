@@ -3,3 +3,5 @@ public boolean twoAsOne(int a, int b, int c) {
 }
 
 //associative prop much?
+
+ 
