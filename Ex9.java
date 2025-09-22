@@ -9,7 +9,8 @@ public int maxMod5(int a, int b)
         return Math.min(a,b);
     }
     else
-    {
+    { 
        return Math.max(a,b);
         
 }
+
