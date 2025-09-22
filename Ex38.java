@@ -4,10 +4,11 @@ public boolean closeFar(int a, int b, int c) {
     
     boolean bFar = Math.abs(a - b) >= 2 && Math.abs(b - c) >= 2;
     boolean cFar = Math.abs(a - c) >= 2 && Math.abs(b - c) >= 2;
-    
+     
     return (bClose && cFar) || (cClose && bFar);
 }
 
 //why god why is this so annoying
 //see how we are  sending two boolean in one return boolean?
+
 
