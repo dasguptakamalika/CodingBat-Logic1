@@ -7,8 +7,9 @@ public boolean closeFar(int a, int b, int c) {
      
     return (bClose && cFar) || (cClose && bFar);
 }
-
+ 
 //why god why is this so annoying
 //see how we are  sending two boolean in one return boolean?
+
 
 
