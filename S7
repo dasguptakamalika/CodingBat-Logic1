@@ -6,7 +6,7 @@ public String starOut(String str) {
             || (i < str.length() - 1 && str.charAt(i + 1) == '*')) {
             continue; // skip this character
         }
-        result.append(str.charAt(i));
+        result.append(str.charAt(i)); 
     }
     return result.toString();
 }
