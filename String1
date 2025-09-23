@@ -8,7 +8,7 @@ public String doubleChar(String str) {
 }
 /*append(x) → adds text to the end
 
-insert(offset, x) → inserts text at a position
+insert(offset, x) → inserts text at a position 
 
 delete(start, end) → removes a section
 
