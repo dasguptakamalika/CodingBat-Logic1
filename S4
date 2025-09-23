@@ -5,4 +5,4 @@ public String repeatEnd(String str, int n) {
         result.append(end);
     }
     return result.toString(); 
-}
+} 
