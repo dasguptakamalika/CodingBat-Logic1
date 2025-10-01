@@ -6,5 +6,6 @@ public int loneSum(int a, int b, int c) {
     if (c != a && c != b) sum += c; // c counts only if unique
 
     return sum;
-} 
+}  
+
 
