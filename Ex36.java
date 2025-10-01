@@ -7,3 +7,4 @@ public boolean evenlySpaced(int a, int b, int c) {
     // Check if the differences are equal
     return (medium - small) == (large - medium);
 }
+ 
