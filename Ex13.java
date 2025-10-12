@@ -15,3 +15,4 @@ otherwise return false.
 
 If outsideMode is true → Return true if n is less than or equal to 1
 (n <= 1) or greater than or equal to 10 (n >= 10), otherwise return false.*/
+
