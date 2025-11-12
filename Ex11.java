@@ -10,7 +10,7 @@ public int dateFashion(int you, int date) {
 /*How it works step-by-step
 First check for “no” case
 
-If either you or date has style ≤ 2 → return 0.
+If either you or date has style ≤ 2 → return 0. 
 
 This comes first because the "no" rule overrides the "yes" rule.
 
@@ -24,6 +24,7 @@ If neither extreme is true, return 1.
 
 
 */
+
 
 
 
