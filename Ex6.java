@@ -1,4 +1,4 @@
-public int teaParty(int tea,int candy)
+ public int teaParty(int tea,int candy)
 {
     if(tea < 5 || candy <5)
         return 0;
@@ -10,3 +10,4 @@ public int teaParty(int tea,int candy)
 }
 
 //    So the “double” rule only matters after passing the first rule (both ≥ 5).
+
