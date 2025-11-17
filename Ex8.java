@@ -7,6 +7,7 @@ public boolean lastDigit(int a, int b, int c) {
 }
 /*int num = 347;
 int tens = (num / 10) % 10; 
-System.out.println(tens); // 4   to access 100th and so on
+System.out.println(tens); // 4   to access 100th and so on 
 */
+
 
