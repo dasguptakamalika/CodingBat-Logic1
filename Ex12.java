@@ -7,7 +7,8 @@ public int sortaSum(int a, int b) {
     else
     {
         return sum;
-    }
+    } 
 }
+
 
 
