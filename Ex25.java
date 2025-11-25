@@ -12,3 +12,4 @@ public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
 //rest of the times , u pick up, also if first if is false then we go to next condition
 //aaaahh dont get it!!!
 
+
