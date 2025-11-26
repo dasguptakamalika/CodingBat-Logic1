@@ -8,8 +8,9 @@ public int fixTeen(int n) {
     } 
     return n; // not a bad teen → return it as is 
 }
-
+ 
 /*see when there is specific exceptions, we ! them out
 VERY IMPORTANT*/
+
 
 
