@@ -7,5 +7,5 @@ public boolean sameStarChar(String str) {
         }
     }
     return true;
-}
+} 
  
