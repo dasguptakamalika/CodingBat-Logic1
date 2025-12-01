@@ -1,4 +1,4 @@
-public boolean makeBricks(int small, int big, int goal) {
+ public boolean makeBricks(int small, int big, int goal) {
     return (small + big * 5 >= goal && goal % 5 <=small );
 }
 
@@ -14,3 +14,4 @@ Remaining = 5 inches. Great, one big brick fits. Works here… but that’s just
 If you start with big bricks first:
 Use 1 big brick (5 inches). Remaining = 4 inches.
 Small bricks can cover exactly 4 inches. f you don’t have enough small bricks to fill that leftover → return false.Also works.*/
+
