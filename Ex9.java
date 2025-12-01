@@ -1,4 +1,4 @@
-public int maxMod5(int a, int b)
+ public int maxMod5(int a, int b)
 {
     if(a==b)
     {
@@ -13,5 +13,6 @@ public int maxMod5(int a, int b)
        return Math.max(a,b);
         
 }
+
 
 
