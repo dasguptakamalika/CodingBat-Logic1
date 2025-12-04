@@ -5,7 +5,7 @@ public int redTicket(int a, int b, int c) {
     else if(a==2 && b==2 && c==2)
     {
         return result = 10; 
-    }
+    } 
     else if(a==b && b==c)
         return result = 5; 
     else
@@ -13,5 +13,6 @@ public int redTicket(int a, int b, int c) {
         return result;
     }
 }
+
 
 
