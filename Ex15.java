@@ -9,7 +9,7 @@ public String fizzString(String str) {
         return "Fizz";
     }
     else if(str.endsWith("b"))
-    {
+    { 
         return "Buzz"; 
     }
     else
@@ -17,6 +17,7 @@ public String fizzString(String str) {
         return str;
     }
 }
+
 
 
 
