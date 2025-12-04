@@ -4,7 +4,7 @@ public int dateFashion(int you, int date) {
     } else if (you >= 8 || date >= 8) {
         return 2; // one of you is very stylish
     } else {
-        return 1; // otherwise maybe
+        return 1; // otherwise maybe 
     } 
 }  
 /*How it works step-by-step
@@ -24,6 +24,7 @@ If neither extreme is true, return 1.
 
 
 */
+
 
 
 
