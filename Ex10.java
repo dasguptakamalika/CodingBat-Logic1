@@ -10,6 +10,7 @@ public int blueTicket(int a, int b, int c) {
 
 
 
-
+ 
   
+
 
