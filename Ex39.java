@@ -5,7 +5,7 @@ public int makeChocolate(int small, int big, int goal) {
     // Remaining weight after using big bars
     int remaining = goal - (bigBarsToUse * 5);
     
-    // Check if we have enough small bars to cover the remaining weight
+    // Check if we have enough small bars  to cover the remaining weight
     if (remaining <= small) {
         return remaining; // number of small bars to use
     } else { 
@@ -20,6 +20,7 @@ if (left <= small) return left;
 return -1;
 The reason it returns -1 instead of false is because the method’s return type is int, not boolean.
 */
+
 
 
 
