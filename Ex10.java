@@ -1,4 +1,4 @@
-public int blueTicket(int a, int b, int c) {
+ public int blueTicket(int a, int b, int c) {
     int ab = a + b;
     int bc = b + c;
     int ac = a + c;
@@ -12,5 +12,6 @@ public int blueTicket(int a, int b, int c) {
 
  
   
+
 
 
