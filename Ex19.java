@@ -7,12 +7,13 @@ public int redTicket(int a, int b, int c) {
         return result = 10; 
     } 
     else if(a==b && b==c)
-        return result = 5; 
+        return result = 5;  
     else
     {
         return result;
     }
 }
+
 
 
 
