@@ -5,7 +5,7 @@ public String doubleChar(String str) {
         result.append(c).append(c); 
     } 
     return result.toString();
-}
+} 
 /*append(x) → adds text to the end
 
 insert(offset, x) → inserts text at a position 
