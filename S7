@@ -10,3 +10,4 @@ public String starOut(String str) {
     }
     return result.toString();
 }
+ 
