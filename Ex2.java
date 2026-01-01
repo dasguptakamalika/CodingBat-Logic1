@@ -10,7 +10,7 @@
         return 1; // small ticket 
     } else {
         return 2; // big ticket
-    }
+    } 
 }
 //That means when you reach the else if, the speed >= 60 part is always true, so it’s useless to check it again.
 /*Test 1: caughtSpeeding(60, false)
@@ -44,6 +44,7 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
     }
 }
  */
+
 
 
 
