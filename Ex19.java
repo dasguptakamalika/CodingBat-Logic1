@@ -1,4 +1,4 @@
-public int redTicket(int a, int b, int c) {
+ public int redTicket(int a, int b, int c) {
     int result =0;
     if(a != b && a !=c)
         return result = 1;
@@ -9,10 +9,11 @@ public int redTicket(int a, int b, int c) {
     else if(a==b && b==c)
         return result = 5;  
     else
-    {
+    { 
         return result;
     }
 }
+
 
 
 
