@@ -10,5 +10,6 @@ public boolean squirrelPlay(int temp, boolean isSummer) {
 
 
 //MUST CHECK FOR THE NON SUMMER ASWELL, KEEP THE NO. OF PARAMETERS SAME AS THE METHOD SIGNATURE
-
  
+ 
+
