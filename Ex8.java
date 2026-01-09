@@ -12,3 +12,5 @@ System.out.println(tens); // 4   to access 100th and so on
 
 
 
+
+ 
