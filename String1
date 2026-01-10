@@ -17,3 +17,4 @@ reverse() → reverses the entire string
 setCharAt(index, c) → changes a character in place
 
 toString() → converts it back to a normal String*/
+ 
