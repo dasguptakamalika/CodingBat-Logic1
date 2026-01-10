@@ -4,8 +4,9 @@
         char c = str.charAt(i);
         result.append(c).append(c); 
     }
-    return result.toString();
+    return result.toString(); 
 }  
+
 
 
 
