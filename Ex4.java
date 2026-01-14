@@ -4,7 +4,7 @@ public boolean more20(int n) {
 
  
 /*1️⃣ 43
-
+ 
 43 % 20 = 3 → remainder is 3 → ❌ false (it’s +3 from 40, not +1 or +2)
 
 2️⃣ 51
@@ -21,5 +21,6 @@ public boolean more20(int n) {
  if the number is smaller than the divisor (and can’t be divided even once), then the remainder is just the number itself.
 
 */
+
 
 
