@@ -4,3 +4,5 @@ public boolean nearTen(int num)
 return(r <=2 || r >=8);
     }
     
+
+ 
