@@ -1,4 +1,4 @@
-public int noTeenSum(int a, int b, int c) {
+ public int noTeenSum(int a, int b, int c) {
     return fixTeen(a) + fixTeen(b) + fixTeen(c);
 }
 
@@ -11,6 +11,7 @@ public int fixTeen(int n) {
  
 /*see when there is specific exceptions, we ! them out
 VERY IMPORTANT*/
+
 
 
 
