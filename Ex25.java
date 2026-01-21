@@ -1,4 +1,4 @@
- public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+  public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
     if (isAsleep) {
         return false; // never answer if asleep
     }
@@ -16,3 +16,4 @@
 
 
  
+
