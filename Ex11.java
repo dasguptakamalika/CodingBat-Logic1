@@ -15,7 +15,7 @@ If either you or date has style ≤ 2 → return 0.
 This comes first because the "no" rule overrides the "yes" rule.
 
 Then check for “yes” case
-
+ 
 If either you or date has style ≥ 8 → return 2.
 
 Otherwise it’s “maybe”
@@ -24,6 +24,7 @@ If neither extreme is true, return 1.
 
 
 */
+
 
 
 
