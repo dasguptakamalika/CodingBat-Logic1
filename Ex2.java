@@ -6,7 +6,7 @@
     
     if (speed <= 60) { 
         return 0; // no ticket
-    } else if (speed <= 80) {
+    } else if (speed <= 80) { 
         return 1; // small ticket 
     } else {
         return 2; // big ticket
@@ -44,6 +44,7 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
     }
 }
  */
+
 
 
 
