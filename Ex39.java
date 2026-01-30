@@ -11,7 +11,7 @@ public int makeChocolate(int small, int big, int goal) {
     } else { 
         return -1; // can't be done
     } 
-}
+} 
 
 //bigFirst → leftover → check smalls
 /*int useBig = Math.min(goal / 5, big);
@@ -26,3 +26,4 @@ The reason it returns -1 instead of false is because the method’s return type 
 
 
  
+
