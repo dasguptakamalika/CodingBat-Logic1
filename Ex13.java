@@ -1,4 +1,4 @@
-public boolean in1To10(int n, boolean outsideMode) {
+ public boolean in1To10(int n, boolean outsideMode) {
     if (outsideMode) {
         return (n <= 1 || n >= 10); 
     } else {
@@ -21,3 +21,4 @@ If outsideMode is true → Return true if n is less than or equal to 1
 
 
  
+
