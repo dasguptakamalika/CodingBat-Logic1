@@ -1,4 +1,4 @@
-public int sortaSum(int a, int b) {
+ public int sortaSum(int a, int b) {
     int sum = a + b;
     if(sum >=10 && sum <=19)
     {
@@ -13,5 +13,6 @@ public int sortaSum(int a, int b) {
 
 
  
+
 
 
