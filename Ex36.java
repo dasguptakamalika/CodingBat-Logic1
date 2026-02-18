@@ -8,8 +8,9 @@ public boolean evenlySpaced(int a, int b, int c) {
     return (medium - small) == (large - medium);
 }
  
+ 
+ 
+ 
 
  
- 
 
- 
