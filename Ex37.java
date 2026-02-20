@@ -1,4 +1,4 @@
-public int luckySum(int a, int b, int c) {
+ public int luckySum(int a, int b, int c) {
     if (a == 13) {
         return 0;
     } else if (b == 13) {
@@ -14,3 +14,4 @@ public int luckySum(int a, int b, int c) {
  
 
  
+
