@@ -7,7 +7,7 @@ public String starOut(String str) {
             continue; // skip this character
         } 
         result.append(str.charAt(i)); 
-    }
+    } 
     return result.toString();
 }
  
