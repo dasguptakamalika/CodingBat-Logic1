@@ -9,10 +9,11 @@ public int round10(int num) {
     } else {  
         return num - remainder; // round down
     }
-} 
+}  
 //num = 16, remainder = 6 → (10 - 6) = 4 → 16 + 4 = 20 ✅ rounded up
 
 //num = 25, remainder = 5 → (10 - 5) = 5 → 25 + 5 = 30 ✅ rounded up
+
 
 
 
