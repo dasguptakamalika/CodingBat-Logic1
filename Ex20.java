@@ -10,8 +10,9 @@ public boolean shareDigit(int a, int b) {
 //initially i didnt consider the mix i.e mod and /, thats imp
 
   
- 
+  
 
  
+
 
 
