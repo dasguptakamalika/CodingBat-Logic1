@@ -1,4 +1,4 @@
-public boolean closeFar(int a, int b, int c) {
+ public boolean closeFar(int a, int b, int c) {
     boolean bClose = Math.abs(a - b) <= 1;
     boolean cClose = Math.abs(a - c) <= 1;
     
@@ -17,3 +17,4 @@ public boolean closeFar(int a, int b, int c) {
 
 
  
+
