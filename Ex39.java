@@ -10,7 +10,7 @@ public int makeChocolate(int small, int big, int goal) {
         return remaining; // number of small bars to use
     } else { 
         return -1; // can't be done
-    } 
+    }  
 } 
 
 //bigFirst → leftover → check smalls
@@ -26,4 +26,5 @@ The reason it returns -1 instead of false is because the method’s return type 
 
 
  
+
 
