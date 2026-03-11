@@ -6,7 +6,7 @@
         return 2;
     else
     {
-        return 1; 
+        return 1;  
 } 
  
 //    So the “double” rule only matters after passing the first rule (both ≥ 5).
@@ -14,4 +14,5 @@
 
 
  
+
 
