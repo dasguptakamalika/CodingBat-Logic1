@@ -5,7 +5,7 @@
         return 2; // one of you is very stylish
     } else {
         return 1; // otherwise maybe 
-    } 
+    }  
 }  
 /*How it works step-by-step
 First check for “no” case
