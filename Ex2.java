@@ -8,7 +8,7 @@
         return 0; // no ticket
     } else if (speed <= 80) { 
         return 1; // small ticket 
-    } else {
+    } else { 
         return 2; // big ticket
     } 
 }
