@@ -6,7 +6,7 @@
     } 
 }
 
-/*Problem (clarified version)
+/*Problem (clarified version) 
 Given a number n and a boolean outsideMode:
   
 If outsideMode is false → Return true if n is between 1 and 10 inclusive
