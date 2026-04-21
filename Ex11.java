@@ -8,7 +8,7 @@
     }  
 }  
 /*How it works step-by-step
-First check for “no” case
+First check for “no” case  
 
 If either you or date has style ≤ 2 → return 0. 
  
