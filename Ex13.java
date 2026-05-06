@@ -4,7 +4,7 @@
     } else {
         return (n >= 1 && n <= 10);
     } 
-}
+}   
 
 /*Problem (clarified version) 
 Given a number n and a boolean outsideMode:
