@@ -12,7 +12,7 @@ public boolean lessBy10(int a, int b, int c) {
         return true; 
     else if (b >= c + 10 || b <= c - 10)
         return true;
-    else if (c >= a + 10 || c <= a - 10)
+    else if (c >= a + 10 || c <= a - 10) 
         return true;
     else
         return false; 
