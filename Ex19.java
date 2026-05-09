@@ -9,7 +9,7 @@
     else if(a==b && b==c)
         return result = 5;   
     else
-    { 
+    {  
         return result;
     }
 }
