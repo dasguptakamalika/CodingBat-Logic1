@@ -12,7 +12,7 @@ First check for “no” case
 
 If either you or date has style ≤ 2 → return 0. 
  
-This comes first because the "no" rule overrides the "yes" rule.
+This comes first because the "no" rule overrides the "yes" rule. 
 
 Then check for “yes” case 
  
