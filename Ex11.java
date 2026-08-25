@@ -6,7 +6,7 @@
     } else {
         return 1; // otherwise maybe 
     }  
-}  
+}   
 /*How it works step-by-step
 First check for “no” case  
 
