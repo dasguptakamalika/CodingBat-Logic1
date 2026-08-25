@@ -10,7 +10,7 @@
 Given a number n and a boolean outsideMode:
   
 If outsideMode is false → Return true if n is between 1 and 10 inclusive
-(n >= 1 && n <= 10),
+(n >= 1 && n <= 10), 
 otherwise return false. 
 
 If outsideMode is true → Return true if n is less than or equal to 1
