@@ -20,6 +20,6 @@ If outsideMode is true → Return true if n is less than or equal to 1
 
 
 
- 
+  
 
 
